@@ -13,6 +13,7 @@ This is because I'm not handy enough in bash to figure out how to take user args
 - ./do_api.sh --domain hax.lol --subdomain wut --add-subdomain
 - ./do_api.sh --name lolwut --add-droplet
 - ./do_api.sh --name ultrawut --region ams3 --size s-2vcpu-4gb --add-droplet
+(I'm sat in an airport right now, so I'm doing skeletonized documentation for now, until I can add some meat. Please have a look at the script to see additional details for now, I tried to make it pretty easy to read)
 
 
 There are some defaults. If size and region arent specified on create, it'll default to what is specified at the top of the script (you may change it if you wish) and the 's-1vcpu-2gb' size.
