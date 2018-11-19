@@ -27,7 +27,7 @@ This is because I'm not handy enough in bash to figure out how to take user args
 
 There are some defaults. If size and region arent specified on create, it'll default to what is specified at the top of the script (you may change it if you wish) and the 's-1vcpu-2gb' size.
 
-This script is also still a work and progress and it needs some polish. 
+This script is also still a work and progress and it needs some polish. If you think this is neat, then please, by all means, take a swing at adding some functionality and lob in a pull request!
 
 ## TODO
 
