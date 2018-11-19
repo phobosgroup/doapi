@@ -19,7 +19,7 @@ There are some defaults. If size and region arent specified on create, it'll def
 
 This script is also still a work and progress and it needs some polish. 
 
-##TODO
+## TODO
 
 - make a pretty usage
 - figure out how to make the cmdline args go 'in any order'
