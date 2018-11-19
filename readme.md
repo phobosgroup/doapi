@@ -22,6 +22,8 @@ This is because I'm not handy enough in bash to figure out how to take user args
 - ./do_api.sh --name ultrawut --region ams3 --size s-2vcpu-4gb --add-droplet
 - ./do_api.sh --list-snapshots
 - ./do_api.sh --name sweetsweetrestore --snapshot 1123123123 --add-droplet
+
+
 (I'm sat in an airport right now, so I'm doing skeletonized documentation for now, until I can add some meat. Please have a look at the script to see additional details for now, I tried to make it pretty easy to read)
 
 
