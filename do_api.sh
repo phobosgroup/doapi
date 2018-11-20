@@ -121,6 +121,12 @@ case $key in
 	POSITIONAL+=("$1")
 	shift
 	;;
+	--list-keys)
+	echo "Listing your existing ssh keys.."
+	curl -s -X GET -H "Content-Type:application/json" -H "Authorization: Bearer $api_key" "https://api.digitalocean.com/v2/account/keys" | jq '.' | grep "\"name\":" | cut -d " " -f 8 | sed s"/\"//g"
+	POSITIONAL+=("$1")
+	shift
+	;;
 	--list-subdomains)
 	if [[ -z $domain ]]; then
 		echo "you must specify the domain (e.g hax.lol) you wish to retrieve records for"
